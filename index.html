@@ -31,24 +31,101 @@
             border-radius: 8px;
             margin-top: 20px;
             display: inline-block;
+            cursor: pointer;
         }
         .heart {
             font-size: 50px;
             color: #ff4081;
         }
+        #razones {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul {
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
 
-    <h1>¡Feliz San Valentín, camm !</h1>
-    <p>Hoy quiero regalarte una pequeña sorpresa, porque no hay día más especial para recordarte cuánto te quiero. Gracias por hacer de mi vida algo maravilloso cada día.</p>
+    <h1>¡Feliz San Valentín, Camila! ❤️</h1>
+    <p>Hoy quiero regalarte algo especial, porque no hay día más bonito para recordarte cuánto te amo. Gracias por hacer de mi vida algo maravilloso cada día.</p>
 
-    <h2>Te invito a algo especial...</h2>
-    <p>Haz click en el botón para una sorpresa de San Valentín 🎁</p>
+    <h2>Te invito a descubrir algo muy especial...</h2>
+    <p>Haz click en el botón para ver una sorpresa. 🎁</p>
 
     <h3 class="heart">❤️</h3>
 
-    <a href="te amo camm" class="button">Ver mi invitación</a>
+    <button class="button" onclick="mostrarRazones()">Ver mi invitación</button>
+
+    <div id="razones">
+        <h2>200 razones por las que te amo ❤️</h2>
+        <ul>
+            <li>Es Bonita</li>
+            <li>Inteligente</li>
+            <li>Linda</li>
+            <li>Sincera</li>
+            <li>La máquina</li>
+            <li>Emocionante</li>
+            <li>Motivadora</li>
+            <li>Compañera</li>
+            <li>Comprensible</li>
+            <li>Muy positiva</li>
+            <li>Bella</li>
+            <li>Adorable</li>
+            <li>Muy cute</li>
+            <li>Crazyy uvi</li>
+            <li>Cariñosa conmigo</li>
+            <li>Sus ojitos brillantes</li>
+            <li>Su voz hermosa</li>
+            <li>Tiene un pelo lindo</li>
+            <li>Sus bracitos (todos potentes 😼)</li>
+            <li>Su paciencia unu</li>
+            <li>Es vergonzosa</li>
+            <li>Su solución a problemas que ella puede</li>
+            <li>Tus vibras</li>
+            <li>Es Creatividad</li>
+            <li>Tiene energía positiva uwu</li>
+            <li>Es muy Cálida</li>
+            <li>Es dulce conmigo</li>
+            <li>Me conoce mucho</li>
+            <li>Tus lindas palabras</li>
+            <li>Las noches hasta tarde</li>
+            <li>Tus momentos que querer compartir conmigo</li>
+            <li>Sus logros me los comparte</li>
+            <li>Es muy Educada</li>
+            <li>Su  mirar me alegra</li>
+            <li>Cosas que aprendí de vos</li>
+            <li>Tus avances en la vida</li>
+            <li>Tu apoyo hacia mi</li>
+            <li>Es una excelente compañera</li>
+            <li>Su honestidad conmigo</li>
+            <li>Me hace sentir único</li>
+            <li>Tiene una linda sonrisa</li>
+            <li>Tiene un estilo único owo</li>
+            <li>Se preocupa por los detalles</li>
+            <li>Cualquier día malo, lo convierte en uno lindo</li>
+            <li>Me enseña a también ser paciente</li>
+            <li>Me anima a salir de mi zona de confort</li>
+            <li>Es madura y sabe manejar cualquier situación</li>
+            <li>Siempre tiene una perspectiva positiva</li>
+            <li>...</li>
+        </ul>
+        <h2>Y una razón para irme...</h2>
+        <p>Actualmente, no encuentro motivos para irme, pero si tuviera que contarte uno, sería la forma en que nos tratamos. Si dejamos de tratarnos con amor y respeto, no sé cuánto podríamos tolerar. 💖</p>
+    </div>
+
+    <script>
+        function mostrarRazones() {
+            document.getElementById("razones").style.display = "block";
+        }
+    </script>
 
 </body>
 </html>
